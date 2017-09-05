@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MathUtil.cpp" />
+    <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="VecAdd.cpp" />
     <ClCompile Include="VecMul.cpp" />
     <ClCompile Include="VecScalarAdd.cpp" />
     <ClCompile Include="VecScalarMul.cpp" />
     <ClCompile Include="VecScalarSub.cpp" />
     <ClCompile Include="VecSub.cpp" />
+    <ClInclude Include="Matrix.h" />
     <ClInclude Include="VecSub.h">
       <FileType>CppCode</FileType>
     </ClInclude>
