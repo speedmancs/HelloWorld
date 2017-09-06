@@ -23,7 +23,8 @@ namespace HelloWorld
     Vector& Vector::operator = (const VectorFactor& other)
     {
         std::cout << "Vector::operator = VectorFactor" << std::endl;
-        other.Assign(*this);
+        for (int i = 0; i < Size(); i++)
+            data[i] = other.GetValue(i);
         return *this;
     }
 

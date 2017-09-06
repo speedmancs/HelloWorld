@@ -140,21 +140,34 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatAdd.cpp" />
     <ClCompile Include="MathUtil.cpp" />
     <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="MatScalarAdd.cpp" />
+    <ClCompile Include="MatScalarSub.cpp" />
+    <ClCompile Include="MatScalarMul.cpp" />
+    <ClCompile Include="MatSub.cpp" />
     <ClCompile Include="VecAdd.cpp" />
     <ClCompile Include="VecMul.cpp" />
     <ClCompile Include="VecScalarAdd.cpp" />
     <ClCompile Include="VecScalarMul.cpp" />
     <ClCompile Include="VecScalarSub.cpp" />
     <ClCompile Include="VecSub.cpp" />
-    <ClInclude Include="Matrix.h" />
-    <ClInclude Include="VecSub.h">
-      <FileType>CppCode</FileType>
-    </ClInclude>
     <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="MatVec.cpp" />
+    <ClCompile Include="VecCrossProduct.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MatAdd.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="MatVec.h" />
+    <ClInclude Include="MatrixFactor.h" />
+    <ClInclude Include="MatScalarAdd.h" />
+    <ClInclude Include="MatScalarSub.h" />
+    <ClInclude Include="MatScalarMul.h" />
+    <ClInclude Include="VecCrossProduct.h" />
+    <ClInclude Include="VecSub.h" />
+    <ClInclude Include="MatSub.h" />
     <ClInclude Include="MathUtil.h" />
     <ClInclude Include="VecAdd.h" />
     <ClInclude Include="VecMul.h" />
